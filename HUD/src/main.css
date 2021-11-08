@@ -8,10 +8,65 @@
 
 body {
   font-family: 'Poppins', sans-serif;  
-  background-color: white;
+  background-color: rgb(3, 0, 12);
 }
 
-p {
-  text-decoration: underline;
-  font-size: 16px;
+.frame {
+  width: 100vw;
+  height: auto;
+}
+
+.title {
+  color: rgb(68, 0, 255);
+  background-color: rgb(14, 0, 51);
+  padding: 10px 20px;
+  font-size: 14px;
+  height: auto;
+}
+
+.subTitle {
+  color: rgb(99, 77, 160);
+  border-bottom: 1px rgb(15, 4, 44) solid;
+  font-size: 14px;
+  height: 50px;
+}
+
+  
+.subTitLeft{
+  font-size: 14px;
+  width: 180px;
+  float: left;
+  padding: 10px 0px 10px 20px;
+  height: 50px;
+}
+
+.subTitRight{
+  font-size: 14px;
+  width: 180px;
+  float: right;
+  padding: 10px 0px 10px 20px;
+  height: 50px;
+}  
+
+#gyro_p, #gyro_r, #gyro_y{
+  width: 125px;
+  float: right;
+  padding: 10px 0px 10px 20px;
+}
+
+#wrn_ico{
+  width: 60px;
+  float: left;
+  padding: 10px 20px 10px 20px;
+}
+#wrn_msg{
+  width: 250px;
+  float: left;
+  padding: 10px;
+}
+
+#nav_inst{
+  text-align: center;
+  color: white;
+  background-color: green;
 }

@@ -1,0 +1,207 @@
+{
+    "start": {
+        "addr": "Ponmudi, Kerala",
+        "name": "Ponmudi",
+        "details": [
+            "Ponmudi",
+            "Kerala, India"
+        ],
+        "lat": 8.7599422,
+        "lng": 77.11687529999999
+    },
+    "end": {
+        "addr": "Vellayambalam, Thiruvananthapuram, Kerala",
+        "name": "Vellayambalam",
+        "details": [
+            "Vellayambalam",
+            "Thiruvananthapuram, Kerala, India"
+        ],
+        "lat": 8.508626,
+        "lng": 76.96574629999999
+    },
+    "dest": [
+        {
+            "addr": "Ponmudi, Kerala",
+            "name": "Ponmudi",
+            "details": [
+                "Ponmudi",
+                "Kerala, India"
+            ],
+            "lat": 8.7599422,
+            "lng": 77.11687529999999
+        },
+        {
+            "addr": "Vellayambalam, Thiruvananthapuram, Kerala",
+            "name": "Vellayambalam",
+            "details": [
+                "Vellayambalam",
+                "Thiruvananthapuram, Kerala, India"
+            ],
+            "lat": 8.508626,
+            "lng": 76.96574629999999
+        }
+    ],
+    "countries": [
+        "IN"
+    ],
+    "mode": "driving",
+    "wpts": [
+        {
+            "lng": 77.11687529999999,
+            "lat": 8.7599422
+        },
+        {
+            "lng": 76.96574629999999,
+            "lat": 8.508626
+        }
+    ],
+    "points": [
+        {
+            "lng": 77.11660590000001,
+            "lat": 8.759140199999997,
+            "dist": {
+                "val": 2444,
+                "txt": "2.4 km",
+                "total": 2444
+            },
+            "img": null,
+            "step": "<step maneuver='DEPART' meters='2444'>Head <direction dir='EAST'>east<\/direction> on <roadlist><road lang='en'>Thiruvananthapuram - Ponmudi Rd<\/road><\/roadlist><\/step>",
+            "dir": "Head east on Thiruvananthapuram - Ponmudi Rd",
+            "nextturn": "Thiruvananthapuram - Ponmudi Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 77.1268308,
+            "lat": 8.7496637,
+            "dist": {
+                "val": 19562,
+                "txt": "19.6 km",
+                "total": 22006
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='19562'>Turn <turn side='RIGHT'>right<\/turn> at <landmark id='0x3b05cdb59fa2d2eb:0xdea4946b6ca9d22c'>Hairpin 19<\/landmark><\/step>",
+            "dir": "Turn right at Hairpin 19 to stay on Thiruvananthapuram - Ponmudi Rd",
+            "nextturn": "Thiruvananthapuram - Ponmudi Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 77.0841186,
+            "lat": 8.670192799999999,
+            "dist": {
+                "val": 10148,
+                "txt": "10.1 km",
+                "total": 32154
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='10148'>Turn <turn side='LEFT'>left<\/turn> at <intersectionlist><intersection lang='en'>Kalungu Junction<\/intersection><\/intersectionlist><\/step>",
+            "dir": "Turn left at Kalungu Junction to stay on Thiruvananthapuram - Ponmudi Rd",
+            "nextturn": "Thiruvananthapuram - Ponmudi Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 77.0279003,
+            "lat": 8.634708200000002,
+            "dist": {
+                "val": 4343,
+                "txt": "4.3 km",
+                "total": 36497
+            },
+            "img": null,
+            "step": "",
+            "dir": "Turn left onto Nedumangad Karipoor Rd",
+            "nextturn": "Nedumangad Karipoor Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 77.00854079999999,
+            "lat": 8.6089518,
+            "dist": {
+                "val": 827,
+                "txt": "850 m",
+                "total": 37324
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='827'>Slight <turn side='LEFT' type='SLIGHT'>left<\/turn> to stay on <roadlist><road lang='en'>Nedumangad Karipoor Rd<\/road><\/roadlist><\/step>",
+            "dir": "Slight left to stay on Nedumangad Karipoor Rd",
+            "nextturn": "Nedumangad Karipoor Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 77.0028428,
+            "lat": 8.607691899999999,
+            "dist": {
+                "val": 784,
+                "txt": "800 m",
+                "total": 38108
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='784'>Turn <turn side='LEFT'>left<\/turn> at <intersectionlist><intersection lang='en'>Palayam Jct<\/intersection><\/intersectionlist><\/step>",
+            "dir": "Turn left at Palayam Jct onto Nedumangad Town Rd",
+            "nextturn": "Nedumangad Town Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 76.998443,
+            "lat": 8.6053576,
+            "dist": {
+                "val": 11232,
+                "txt": "11.2 km",
+                "total": 49340
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='11232'>Turn <turn side='LEFT'>left<\/turn> at <intersectionlist><intersection lang='en'>LIC Jct<\/intersection><\/intersectionlist><\/step>",
+            "dir": "Turn left at LIC Jct onto Thiruvananthapuram - Ponmudi Rd",
+            "nextturn": "Thiruvananthapuram - Ponmudi Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 76.9616688,
+            "lat": 8.5316014,
+            "dist": {
+                "val": 2326,
+                "txt": "2.3 km",
+                "total": 51666
+            },
+            "img": null,
+            "step": "<step maneuver='NAME_CHANGE' meters='2326'>At <intersectionlist><intersection lang='en'>Ambalamukku Jct<\/intersection><\/intersectionlist>, continue onto <roadlist><road lang='en'>Peroorkada Rd<\/road><\/roadlist><\/step>",
+            "dir": "At Ambalamukku Jct, continue onto Peroorkada Rd\/Thiruvananthapuram - Thenmala Rd\/SH45",
+            "nextturn": "SH45",
+            "type": "waypoint"
+        },
+        {
+            "lng": 76.9624506,
+            "lat": 8.5116784,
+            "dist": {
+                "val": 326,
+                "txt": "350 m",
+                "total": 51992
+            },
+            "img": null,
+            "step": "<step maneuver='ROUNDABOUT_ENTER_AND_EXIT' meters='326'>At the roundabout, take the <exit number='THIRD'>3rd<\/exit> exit<\/step>",
+            "dir": "At Vellayambalam Jct, take the 3rd exit onto CV Raman Pillai Rd\/Vellayambalam - Vazhuthacaud Rd",
+            "nextturn": "Vellayambalam - Vazhuthacaud Rd",
+            "type": "waypoint"
+        },
+        {
+            "lng": 76.9623362,
+            "lat": 8.5088561,
+            "dist": {
+                "val": 384,
+                "txt": "400 m",
+                "total": 52376
+            },
+            "img": null,
+            "step": "<step maneuver='TURN' meters='384'>Turn <turn side='LEFT'>left<\/turn> at <intersectionlist><intersection lang='en'>Vellayambalam<\/intersection><\/intersectionlist><\/step>",
+            "dir": "Turn left at Vellayambalam onto Thampuran Nagar Rd",
+            "nextturn": "Thampuran Nagar Rd",
+            "type": "waypoint"
+        }
+    ],
+    "totaldist": 52376,
+    "avoid": {
+        "highways": false,
+        "tolls": false,
+        "ferries": false
+    },
+    "elevation": null
+}

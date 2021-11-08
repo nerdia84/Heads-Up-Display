@@ -25,14 +25,103 @@
 </head>
 
 <body>
-    <p>Click the button to get your coordinates.</p>
+    <div class="frame">
+        <div class="title">
+            Location
+        </div>
+        <!-- pos -->
+        <div class="subTitle">
+            <div id="gps_lat" class="subTitLeft">
+                Latitude : 0.0
+            </div>
+            <div id="gps_lon" class="subTitRight">
+                Longitude : 0.0
+            </div>
+        </div>
+        <!-- mov -->
+        <div class="subTitle">
+            <div id="gps_spd" class="subTitLeft">
+                Speed : 0.0 kmph
+            </div>
+            <div id="gps_hed" class="subTitRight">
+                Heading : 0.0
+            </div>
+        </div>
+        <!-- nav -->
+        <div class="subTitle">
+            <div id="gps_tim" class="subTitLeft">
+                Time : 00:00:00
+            </div>
+            <div id="gps_alt" class="subTitRight">
+                Altitude : 0.0 m
+            </div>
+        </div>
+    </div>
 
-    <button onclick="getLocation()">Try It</button>
+    <div class="frame">
+        <div class="title">
+            Attitude
+        </div>
+        <div class="subTitle">
+            <div id="gyro_p" class="subTitLeft">
+                Pitch : 0.0
+            </div>
+            <div id="gyro_r" class="subTitLeft">
+                Roll : 0.0
+            </div>
+            <div id="gyro_y" class="subTitLeft">
+                Yaw : 0.0
+            </div>
+        </div>
+    </div>
 
-    <p><strong>Note:</strong> The geolocation property is not supported in IE8 and earlier versions.</p>
+    <div class="frame">
+        <div id="nav_info" class="title">
+            Axyz - Bxyz
+        </div>
+        <div id="nav_inst" class="title">
+            Instruction - Turn left
+        </div>
+        <div class="title">
+            Waypoint
+        </div>
+        <div class="subTitle">
+            <div id="waypt_a" class="subTitLeft">
+                WP 01 : 0.0 kms
+            </div>
+            <div id="waypt_a" class="subTitRight">
+                WP 02 : 0.0 kms
+            </div>
+        </div>
+        <div class="title">
+            Distance
+        </div>
+        <div class="subTitle">
+            <div id="dist_cov" class="subTitLeft">
+                Covered: 0000.0 kms
+            </div>
+            <div id="dist_tot" class="subTitRight">
+                Total: 0000.0 kms
+            </div>
+        </div>
+        <div class="subTitle">
+            <div id="steer_q" class="subTitLeft">
+                Steering Que
+            </div>
+            <div id="steer_d" class="subTitLeft">
+                Steer Point Diamond
+            </div>
+        </div>
+        <div class="subTitle">
+            <div id="wrn_ico" class="subTitLeft">
+                <i id="wrn_fa" class="fas fa-satellite-dish"></i>
+            </div>
+            <div id="wrn_msg" class="subTitLeft">
 
-    <p id="demo"></p>
+            </div>
+        </div>
 
+    </div>
 </body>
 
 </html>

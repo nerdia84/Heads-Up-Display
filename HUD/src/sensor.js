@@ -68,8 +68,8 @@ function handleOrientation(event) {
 
     deg = deg + angle;
 
-    watercup.innerHTML = Math.round(deg);
-    watercup.style.transform = 'rotate(' + -deg + 'deg)';
+    // watercup.innerHTML = Math.round(deg);
+    // watercup.style.transform = 'rotate(' + -deg + 'deg)';
 }
 
-window.addEventListener('deviceorientation', handleOrientation);
+// window.addEventListener('deviceorientation', handleOrientation);
