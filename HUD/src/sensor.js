@@ -48,28 +48,33 @@ function gpsError(err) {
 // Compass 0 - 359
 
 // Atitude  
+const gyroDat = { x: 0.0, y: 0.0, z: 0.0 };
 
 function handleOrientation(event) {
     var x = event.beta;  // In degree in the range [-180,180], x, 'front to back'
     var y = event.gamma; // In degree in the range [-90,90], y, 'left to right'
     var z = event.alpha; // 0-360, z, compass orientation
 
+    gyroDat.x = x;
+    gyroDat.y = y;
+    gyroDat.z = z;
+
     // coord 1: 0,0
     // coord 2: x,y
     // calculate the angle
 
-    var rad = Math.atan2(y, x);
-    var deg = rad * (180 / Math.PI);
+    // var rad = Math.atan2(y, x);
+    // var deg = rad * (180 / Math.PI);
 
-    // take into account if phone is held sideways / in landscape mode
-    var screenOrientation = screen.orientation || screen.mozOrientation || screen.msOrientation;
-    // 90, -90, or 0
-    var angle = screenOrientation.angle || window.orientation || 0;
+    // // take into account if phone is held sideways / in landscape mode
+    // var screenOrientation = screen.orientation || screen.mozOrientation || screen.msOrientation;
+    // // 90, -90, or 0
+    // var angle = screenOrientation.angle || window.orientation || 0;
 
-    deg = deg + angle;
+    // deg = deg + angle;
 
-    // watercup.innerHTML = Math.round(deg);
-    // watercup.style.transform = 'rotate(' + -deg + 'deg)';
+    // // watercup.innerHTML = Math.round(deg);
+    // // watercup.style.transform = 'rotate(' + -deg + 'deg)';
 }
 
 // window.addEventListener('deviceorientation', handleOrientation);

@@ -9,6 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;  
   background-color: rgb(3, 0, 12);
+  font-size: 12px;
 }
 
 .frame {
@@ -20,32 +21,29 @@ body {
   color: rgb(68, 0, 255);
   background-color: rgb(14, 0, 51);
   padding: 10px 20px;
-  font-size: 14px;
   height: auto;
+  font-size: 14px;
 }
 
 .subTitle {
   color: rgb(99, 77, 160);
   border-bottom: 1px rgb(15, 4, 44) solid;
-  font-size: 14px;
-  height: 50px;
+  height: 36px;
 }
 
   
 .subTitLeft{
-  font-size: 14px;
   width: 180px;
   float: left;
   padding: 10px 0px 10px 20px;
-  height: 50px;
+  height: 36px;
 }
 
 .subTitRight{
-  font-size: 14px;
   width: 180px;
   float: right;
   padding: 10px 0px 10px 20px;
-  height: 50px;
+  height: 36px;
 }  
 
 #gyro_p, #gyro_r, #gyro_y{
