@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads Up Display</title>
+
+    <!-- Library -->
+    <script src="src/lib/a076d05399.js"></script>
+    <script src="src/lib/jquery-3.4.1.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="src/main.css">
+
+    <!-- Main JS -->
+    <script src="src/sensor.js"></script>
+    <script src="src/menu.js"></script>
+    <script src="src/display.js"></script>
+</head>
+
+<body>
+    <p>Click the button to get your coordinates.</p>
+
+    <button onclick="getLocation()">Try It</button>
+
+    <p><strong>Note:</strong> The geolocation property is not supported in IE8 and earlier versions.</p>
+
+    <p id="demo"></p>
+
+</body>
+
+</html>
