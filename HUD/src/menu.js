@@ -8,7 +8,7 @@ $(document).ready(function () {
         $('#gps_lat').html("Lat : " + gpsDat.lat);
         $('#gps_lon').html("Lon : " + gpsDat.lon);
 
-        $('#gps_spd').html("Speed : " + gpsDat.spd + " kmph");
+        $('#gps_spd').html("Speed : " + gpsDat.spd + " mps");
         $('#gps_hed').html("Heading : " + gpsDat.hed + " &#176");
 
         $('#gps_tim').html("Time : " + gpsDat.acr);

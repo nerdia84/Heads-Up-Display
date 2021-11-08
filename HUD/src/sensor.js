@@ -13,9 +13,9 @@ function gpsSuccess(pos) {
     gpsDat.lat = pos.coords.latitude;
     gpsDat.lon = pos.coords.longitude;
     gpsDat.hed = pos.coords.heading;
-    gpsDat.spd = pos.coords.speed;
-    gpsDat.alt = pos.coords.altitude;
-    gpsDat.acr = pos.coords.accuracy;
+    gpsDat.spd = Math.round(pos.coords.speed);
+    gpsDat.alt = Math.round(pos.coords.altitude);
+    gpsDat.acr = Math.round(pos.coords.accuracy);
 }
 
 function gpsError(err) {
@@ -77,4 +77,4 @@ function handleOrientation(event) {
     // // watercup.style.transform = 'rotate(' + -deg + 'deg)';
 }
 
-// window.addEventListener('deviceorientation', handleOrientation);
+window.addEventListener('deviceorientation', handleOrientation);
